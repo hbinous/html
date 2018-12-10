@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<script>
+    var mesphotos = ["github.com/explorweb/cours2018A/blob/master/docs/cours/images/img1.png","github.com/explorweb/cours2018A/blob/master/docs/cours/images/img2tri.png","github.com/explorweb/cours2018A/blob/master/docs/cours/images/img4tri.png"];
+    var image_en_cours = 0;
+    function suivante () {
+      image_en_cours = image_en_cours + 1;
+      if (image_en_cours == mesphotos.length) {
+        image_en_cours = 0;
+      }
+      document.getElementById('ecran').src = mesphotos[image_en_cours];
+    }
+    function precedente () {
+      image_en_cours = image_en_cours - 1;
+      if (image_en_cours < 0) {
+        image_en_cours = mesphotos.length-1;
+      }
+      document.getElementById('ecran').src = mesphotos[image_en_cours];
+    }
+  </script>
+<head>
+<title>HOME</title>
+</head>
+<body>
+
+
+<h1>This is g</h1>
+<p>This is a paragraph.</p>
+
+ <div class="illustration">
+  <img id="ecran" src=""github.com/explorweb/cours2018A/blob/master/docs/cours/images/img1.png"" alt="images" />
+  </div>
+
+  <button onclick="precedente();">image précédente</button>
+  <button onclick="suivante();">image suivante</button>
+
+</body>
+</html>
