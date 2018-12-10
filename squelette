@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>HOME</title>
+</head>
+<body>
+ <img style="border-color:#01BBFE;" border="1"  src="github.com/explorweb/cours2018A/blob/master/docs/cours/images/img1.png" alt="image 1 du cours">
+<a href="https://github.com/explorweb/cours2018A/blob/master/docs/cours/images/img1.png"> la premiere image du cours html</a> </br>
+<img  style="border-color:#01BBFE"; border="1" src="github.com/explorweb/cours2018A/blob/master/docs/cours/images/img2tri.png" alt="image 2 du cours">
+<a href="https://github.com/explorweb/cours2018A/blob/master/docs/cours/images/img2tri.png"> la deuxiemme image du cours html</a> </br>
+<img style="border-color:#01BBFE;" border="1" src="github.com/explorweb/cours2018A/blob/master/docs/cours/images/img4tri.png" alt="image 3 du cours">
+<a href="https://github.com/explorweb/cours2018A/blob/master/docs/cours/images/img4tri.png"> la troisième image du cours html</a> </br>
+
+<h1>This is g</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
