@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <script>
-    var mesphotos = ["github.com/explorweb/cours2018A/blob/master/docs/cours/images/img1.png","github.com/explorweb/cours2018A/blob/master/docs/cours/images/img2tri.png","github.com/explorweb/cours2018A/blob/master/docs/cours/images/img4tri.png"];
+    var mesphotos = ["https://github.com/explorweb/cours2018A/blob/master/docs/cours/images/img1.png?raw=true","https://github.com/explorweb/cours2018A/blob/master/docs/cours/images/img2tri.png?raw=true","https://github.com/explorweb/cours2018A/blob/master/docs/cours/images/img4tri.png?raw=true"];
     var image_en_cours = 0;
     function suivante () {
       image_en_cours = image_en_cours + 1;
@@ -19,7 +19,7 @@
     }
   </script>
 <head>
-<title>HOME</title>
+<title>diaporama</title>
 </head>
 <body>
 
@@ -28,7 +28,7 @@
 <p>This is a paragraph.</p>
 
  <div class="illustration">
-  <img id="ecran" src=""github.com/explorweb/cours2018A/blob/master/docs/cours/images/img1.png"" alt="images" />
+  <img id="ecran" src="https://github.com/explorweb/cours2018A/blob/master/docs/cours/images/img1.png?raw=true" alt="images" />
   </div>
 
   <button onclick="precedente();">image précédente</button>
