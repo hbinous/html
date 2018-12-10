@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<script>
+    var mesphotos = ["github.com/explorweb/cours2018A/blob/master/docs/cours/images/img1.png","github.com/explorweb/cours2018A/blob/master/docs/cours/images/img2tri.png","github.com/explorweb/cours2018A/blob/master/docs/cours/images/img4tri.png"];
+    var image_en_cours = 0;
+    function rotate () {
+      image_en_cours = image_en_cours + 1;
+      if (image_en_cours == mesphotos.length) {
+        image_en_cours = 0;
+      }
+      document.getElementById('ecran1').src = mesphotos[image_en_cours];
+      document.getElementById('ecran2').src = mesphotos[image_en_cours];
+      document.getElementById('ecran3').src = mesphotos[image_en_cours];
+    }
+   
+  </script>
+<head>
+<title>HOME</title>
+</head>
+<body>
+ 
+
+
+<table style="width:100%">
+  <tr>
+    <th><div id="colonne1"><img id="ecran1" src="https://github.com/explorweb/cours2018A/blob/master/docs/cours/images/img1.png?raw=true" alt="images" width="200" /></div></th>
+    <th><div id="colonne2"><img id="ecran2" src="https://github.com/explorweb/cours2018A/blob/master/docs/cours/images/img1.png?raw=true" alt="images" width="200" /></div></th> 
+    <th><div id="colonne3"><img id="ecran3" src="https://github.com/explorweb/cours2018A/blob/master/docs/cours/images/img1.png?raw=true" alt="images" width="200" /></div></th>
+  </tr>
+
+
+  <button onclick="rotate();">rotate</button>
+ 
+</body>
+</html>
